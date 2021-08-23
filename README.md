@@ -16,11 +16,11 @@ Kubernetes provides you with:
 
 ## When not to use it
 There are plenty of Kubernetes alternatives that can do a better job for certain tasks/projects:
-Functions as a Service (FaaS) — Lambda, Google Functions, OpenFaaS, etc.
-Platform as a Service (PaaS) — Heroku, Cloud Foundry, Google App Engine, etc.
-Containers as a Service (CaaS) — Azure Container Instances, Google Cloud Run, Elastic Container Service, Fargate, DC/OS, etc.
-Infrastructure as a Service (IaaS) (VMs) — EC2, GCE, vSphere, etc.
-Bare Metal — MaaS, Packet, DIY, etc.
+- Functions as a Service (FaaS) — Lambda, Google Functions, OpenFaaS, etc.
+- Platform as a Service (PaaS) — Heroku, Cloud Foundry, Google App Engine, etc.
+- Containers as a Service (CaaS) — Azure Container Instances, Google Cloud Run, Elastic Container Service, Fargate, DC/OS, etc.
+- Infrastructure as a Service (IaaS) (VMs) — EC2, GCE, vSphere, etc.
+- Bare Metal — MaaS, Packet, DIY, etc.
 
 For more information check out this article: https://karlkfi.medium.com/when-not-to-use-kubernetes-ea3b91da3f1f
 
