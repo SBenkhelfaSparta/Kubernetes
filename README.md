@@ -15,7 +15,7 @@ Kubernetes provides you with:
 - **Secret and configuration management** - Kubernetes lets you store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 
 ## General Kubernetes Structure
-[img](img.png)
+![img](img.png)
 
 ## When not to use it
 There are plenty of Kubernetes alternatives that can do a better job for certain tasks/projects:
