@@ -14,6 +14,9 @@ Kubernetes provides you with:
 - **Self-healing** - Kubernetes restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
 - **Secret and configuration management** - Kubernetes lets you store and manage sensitive information, such as passwords, OAuth tokens, and SSH keys. You can deploy and update secrets and application configuration without rebuilding your container images, and without exposing secrets in your stack configuration.
 
+## General Kubernetes Structure
+[img](img.png)
+
 ## When not to use it
 There are plenty of Kubernetes alternatives that can do a better job for certain tasks/projects:
 - Functions as a Service (FaaS) — Lambda, Google Functions, OpenFaaS, etc.
@@ -23,4 +26,11 @@ There are plenty of Kubernetes alternatives that can do a better job for certain
 - Bare Metal — MaaS, Packet, DIY, etc.
 
 For more information check out this article: https://karlkfi.medium.com/when-not-to-use-kubernetes-ea3b91da3f1f
+
+## What Is Managed Kubernetes?
+Managed Kubernetes is when third-party providers take over responsibility for some or all of the work necessary for the successful set-up and operation of K8s. Depending on the vendor, “managed” can refer to anything from dedicated support, to hosting with pre-configured environments, to full hosting and operation.
+
+Kubernetes already includes an impressive set of features, including scalability, detached credential configuration, self-recovery, workload management and batch execution, and progressive application deployment, but they require significant manual configuration. Managed solutions take care of much of this configuration for you, or at least guide you through the decision-making process. 
+
+Once your set-up is operational, managed solutions provide the tools necessary to automate routine processes such as updates, scaling, load-balancing and monitoring. When managed Kubernetes services include a hosting platform, they will also manage all of the maintenance and configuration needed for your infrastructure.
 
